@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b756bdb4-218e-4cdb-b45c-e497f02e5ed5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_cdn/scss/_boot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_cdn/scss/_cta.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_cdn/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_cdn/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_cdn/scss/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +21,20 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Ye6oP9hlGpThFoTbDpDwd2zwAN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,8 +42,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_cdn/scss" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -39,7 +63,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583290887200</updated>
-      <workItem from="1583290892703" duration="2056000" />
+      <workItem from="1583290892703" duration="2195000" />
+      <workItem from="1583356414620" duration="3968000" />
+      <workItem from="1583368588893" duration="1198000" />
+      <workItem from="1583374784273" duration="4010000" />
     </task>
     <servers />
   </component>
@@ -47,14 +74,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="276" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583292254911">
+    <state x="385" y="276" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583378672594">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="385" y="276" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.777@0.23.1280.777" timestamp="1583292254911" />
-    <state x="294" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1583290892744">
+    <state x="385" y="276" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.777@0.23.1280.777" timestamp="1583378672594" />
+    <state x="211" y="206" key="EditFileWatcherDialog" timestamp="1583375674327">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="294" y="246" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1583290892744" />
+    <state x="211" y="206" key="EditFileWatcherDialog/0.23.1280.777@0.23.1280.777" timestamp="1583375674327" />
+    <state x="141" y="50" key="SettingsEditor" timestamp="1583375676965">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1583375676965" />
+    <state x="294" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1583374784841">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="294" y="246" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1583374784841" />
     <state x="423" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583290934610">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

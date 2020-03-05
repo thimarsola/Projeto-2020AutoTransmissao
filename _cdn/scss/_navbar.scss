@@ -1,0 +1,39 @@
+.header_navbar{
+    .navbar{
+        min-height: 100px;
+        border-bottom: 2px solid $color1;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        -webkit-backdrop-filter: blur(2px);
+        backdrop-filter: blur(2px);
+        .collapse{
+            .navbar-nav{
+                .nav-item{
+                    text-align: center;
+                    .nav-link{
+                        position: relative;
+                        color: $color3;
+                        text-align: center !important;
+                        &::after{
+                            position: absolute;
+                            left: 0;
+                            bottom: -.5em;
+                            display: block;
+                            content: '';
+                            width: 0;
+                            height: 2px;
+                            background-color: $color1;
+                        }
+                        &:hover{
+                            &::after{
+                                width: 100%;
+                                -webkit-transition: ease .45s;
+                                -moz-transition: ease .45s;
+                                transition: ease .45s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
