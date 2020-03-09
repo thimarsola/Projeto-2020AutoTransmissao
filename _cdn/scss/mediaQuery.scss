@@ -1,0 +1,57 @@
+//TABLET
+@media screen and (max-width: 768px) {
+    //BODY
+    * {
+        font-size: 14px;
+    }
+
+    //NAVBAR
+    .header_navbar{
+        .navbar{
+            .collapse{
+                margin: 2em auto;
+            }
+        }
+    }
+
+}
+
+//MOBILE
+@media screen and (max-width: 576px) {
+    //CTA
+    #cta{
+        .main_cta_header{
+            h1{
+                font:{
+                    size: 2rem;
+                }
+                strong{
+                    font:{
+                        size: 2.625rem;
+                    }
+                }
+            }
+        }
+        .main_cta_content{
+            p{
+                font:{
+                    size: 1em;
+                }
+            }
+        }
+    }
+
+    #quem-somos{
+        .main_about_container{
+            flex-wrap: wrap;
+            .main_about_container_description{
+                padding: 3em 2.5em;
+                flex-basis: 100%;
+            }
+            .main_about_container_logo{
+                flex-basis: 100%;
+            }
+        }
+    }
+
+}

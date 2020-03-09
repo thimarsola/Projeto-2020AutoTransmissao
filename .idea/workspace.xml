@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b756bdb4-218e-4cdb-b45c-e497f02e5ed5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_cdn/scss/_boot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_cdn/scss/_cta.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_cdn/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_cdn/scss/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_cdn/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_cdn/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_cdn/scss/_about.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_cdn/scss/_services.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_cdn/scss/mediaQuery.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_cdn/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_cdn/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/_boot.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/_boot.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/_cta.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/_cta.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/_mixins.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/_navbar.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/_navbar.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/styles.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_cdn/scss/_boot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/_boot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_cdn/scss/_cta.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/_cta.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_cdn/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_cdn/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_cdn/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,9 +31,24 @@
       <executable />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="SCSS File" />
       </list>
     </option>
@@ -66,7 +91,8 @@
       <workItem from="1583290892703" duration="2195000" />
       <workItem from="1583356414620" duration="3968000" />
       <workItem from="1583368588893" duration="1198000" />
-      <workItem from="1583374784273" duration="4010000" />
+      <workItem from="1583374784273" duration="4113000" />
+      <workItem from="1583719390754" duration="7939000" />
     </task>
     <servers />
   </component>
@@ -78,21 +104,33 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="385" y="276" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.777@0.23.1280.777" timestamp="1583378672594" />
-    <state x="211" y="206" key="EditFileWatcherDialog" timestamp="1583375674327">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="1505" y="198" key="EditFileWatcherDialog" timestamp="1583719654003">
+      <screen x="1280" y="23" width="1366" height="745" />
     </state>
+    <state x="1505" y="198" key="EditFileWatcherDialog/0.23.1280.777/1280.23.1366.745@1280.23.1366.745" timestamp="1583719654003" />
     <state x="211" y="206" key="EditFileWatcherDialog/0.23.1280.777@0.23.1280.777" timestamp="1583375674327" />
-    <state x="141" y="50" key="SettingsEditor" timestamp="1583375676965">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="1430" y="46" key="SettingsEditor" timestamp="1583719654417">
+      <screen x="1280" y="23" width="1366" height="745" />
     </state>
+    <state x="1430" y="46" key="SettingsEditor/0.23.1280.777/1280.23.1366.745@1280.23.1366.745" timestamp="1583719654417" />
     <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1583375676965" />
-    <state x="294" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1583374784841">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="1594" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1583719392658">
+      <screen x="1280" y="23" width="1366" height="745" />
     </state>
+    <state x="1594" y="237" key="com.intellij.ide.util.TipDialog/0.23.1280.777/1280.23.1366.745@1280.23.1366.745" timestamp="1583719392658" />
     <state x="294" y="246" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1583374784841" />
     <state x="423" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583290934610">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="423" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.777@0.23.1280.777" timestamp="1583290934610" />
+    <state x="0" y="23" width="845" height="777" key="find.popup" timestamp="1583723959827">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="0" y="23" width="845" height="777" key="find.popup/0.23.1280.777/1280.23.1366.745@0.23.1280.777" timestamp="1583723959827" />
+    <state x="326" y="95" width="670" height="706" key="search.everywhere.popup" timestamp="1583724802868">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="326" y="95" width="670" height="706" key="search.everywhere.popup/0.23.1280.777/1280.23.1366.745@0.23.1280.777" timestamp="1583724802868" />
+    <state x="1628" y="92" width="670" height="676" key="search.everywhere.popup/0.23.1280.777/1280.23.1366.745@1280.23.1366.745" timestamp="1583719575704" />
   </component>
 </project>

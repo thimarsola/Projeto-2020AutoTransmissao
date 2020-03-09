@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,oCAAqC,CAEjC,CAAE,CACE,SAAS,CAAE,IAAI",
+"sources": ["../scss/mediaQuery.scss"],
+"names": [],
+"file": "mediaQuery.css"
+}
