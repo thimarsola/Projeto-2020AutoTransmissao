@@ -64,6 +64,7 @@
 
     <!--CSS-->
     <link href="https://fonts.googleapis.com/css?family=Exo+2:200,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="_cdn/css/lightbox.min.css">
     <link rel="stylesheet" href="_cdn/css/styles.css">
 
     <title>2020 Auto Transmissões - Consertos e Retífica de Câmbios</title>
@@ -201,11 +202,11 @@
         <div class="container">
             <div class="row">
                 <!--CONTENT-->
-                <div class="col-sm-7 mt-sm-4">
+                <div class="col-sm-7">
                     <!--HEADER-->
-                    <div class="main_diagnostics_header">
+                    <header class="main_diagnostics_header">
                         <h1>Como funciona os <br><strong>Nossos Diagnósticos</strong></h1>
-                    </div>
+                    </header>
                     <!--CONTENT-->
                     <div class="main_diagnostics_content">
                         <p>Primeiramente, assim que o automóvel chegar  na oficina, será feito o diagnóstico do problema, sendo assim, será elaborado um relatório completo e o orçamento (gratuito).</p>
@@ -213,7 +214,7 @@
                         <a href="#contato" class="btn btn-color1">Solicitar orçamento</a></div>
                 </div>
                 <!--IMAGE-->
-                <div class="col-sm-5 mt-sm-4">
+                <div class="col-sm-5">
                     <div class="main_diagnostics_image">
                         <img src="_cdn/img/img-diagnostics.png" alt="2020 Auto Transmissões" class="img-fluid">
                     </div>
@@ -226,44 +227,44 @@
     <section id="galeria" class="main_gallery">
         <div class="container">
             <!--HEADER-->
-            <div class="main_gallery_header">
+            <header class="main_gallery_header">
                 <h1>Conheça o <br><strong>Nosso Espaço</strong></h1>
-            </div>
+            </header>
             <!--CONTENT-->
             <div class="main_gallery_content">
                 <!--IMAGE-->
                 <div class="main_gallery_img">
-                    <a href="_cdn/img/img-gallery-01.jpg" data-lightbox="roadtrip">
+                    <a href="_cdn/img/img-gallery-01.jpg" data-lightbox="gallery">
                         <img src="_cdn/img/img-gallery-01.jpg" alt="2020 Auto Transmissões" class="img-fluid">
                     </a>
                 </div>
                 <!--IMAGE-->
                 <div class="main_gallery_img">
-                    <a href="_cdn/img/img-gallery-02.jpg" data-lightbox="roadtrip">
+                    <a href="_cdn/img/img-gallery-02.jpg" data-lightbox="gallery">
                         <img src="_cdn/img/img-gallery-02.jpg" alt="2020 Auto Transmissões" class="img-fluid">
                     </a>
                 </div>
                 <!--IMAGE-->
                 <div class="main_gallery_img">
-                    <a href="_cdn/img/img-gallery-03.jpg" data-lightbox="roadtrip">
+                    <a href="_cdn/img/img-gallery-03.jpg" data-lightbox="gallery">
                         <img src="_cdn/img/img-gallery-03.jpg" alt="2020 Auto Transmissões" class="img-fluid">
                     </a>
                 </div>
                 <!--IMAGE-->
                 <div class="main_gallery_img">
-                    <a href="_cdn/img/img-gallery-04.jpg" data-lightbox="roadtrip">
+                    <a href="_cdn/img/img-gallery-04.jpg" data-lightbox="gallery">
                         <img src="_cdn/img/img-gallery-04.jpg" alt="2020 Auto Transmissões" class="img-fluid">
                     </a>
                 </div>
                 <!--IMAGE-->
                 <div class="main_gallery_img">
-                    <a href="_cdn/img/img-gallery-05.jpg" data-lightbox="roadtrip">
+                    <a href="_cdn/img/img-gallery-05.jpg" data-lightbox="gallery">
                         <img src="_cdn/img/img-gallery-05.jpg" alt="2020 Auto Transmissões" class="img-fluid">
                     </a>
                 </div>
                 <!--IMAGE-->
                 <div class="main_gallery_img">
-                    <a href="_cdn/img/img-gallery-06.jpg" data-lightbox="roadtrip">
+                    <a href="_cdn/img/img-gallery-06.jpg" data-lightbox="gallery">
                         <img src="_cdn/img/img-gallery-06.jpg" alt="2020 Auto Transmissões" class="img-fluid">
                     </a>
                 </div>
@@ -274,51 +275,55 @@
     <!--CONTACT-->
     <section id="contato" class="main_contact">
         <div class="main_contact_form">
-            <!--HEADER-->
-            <div class="main_contact_header">
-                <h1>Entre em<br><strong>Contato</strong></h1>
-            </div>
-            <!--CONTENT-->
-            <div class="main_contact_content">
-                <p>Entre em contato conosco e agende um orçamento gratuito!</p>
-                <div class="form">
-                    <div class="main_contact_content_form_header">
-                        <h2>
-                            <img src="_cdn/img/vt-contact.svg" alt="2020 Auto Transmissões">
-                            Envie um e-mail
-                        </h2>
+            <div class="main_contact_form_container">
+                <!--HEADER-->
+                <div class="main_contact_header">
+                    <h1>Entre em<br><strong>Contato</strong></h1>
+                </div>
+                <!--CONTENT-->
+                <div class="main_contact_content">
+                    <p>Entre em contato conosco e agende um orçamento gratuito!</p>
+                    <div class="form">
+                        <div class="main_contact_content_form_header">
+                            <h2>
+                                <img src="_cdn/img/vt-contact.svg" alt="2020 Auto Transmissões">
+                                Envie um e-mail
+                            </h2>
+                        </div>
+                        <form action="_cdn/php/send.php" method="post">
+                            <!-- NOME -->
+                            <div class="form-group">
+                                <label for="nome" class="d-none">Nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome" placeholder="Insira seu nome" size="35" maxlength="100" required>
+                            </div>
+                            <!-- EMAIL -->
+                            <div class="form-group">
+                                <label for="email" class="d-none">E-mail</label>
+                                <input type="email" id="email" class="form-control" name="email" placeholder="Insira seu melhor e-mail" size="35" maxlength="70" required>
+                            </div>
+                            <!-- TELEFONE -->
+                            <div class="form-group">
+                                <label for="telefone" class="d-none">Telefone</label>
+                                <input type="tel" id="telefone" class="form-control" name="telefone" placeholder="Insira seu telefone com DDD" size="35"
+                                       maxlength="70" required>
+                            </div>
+                            <!-- MENSAGEM -->
+                            <div class="form-group">
+                                <label for="mensagem" class="d-none">Mensagem</label>
+                                <textarea class="form-control" id="mensagem" rows="4" name="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
+                            </div>
+                            <!-- Google recaptcha -->
+                            <div class="g-recaptcha d-flex justify-content-center"
+                                 data-sitekey="6LdLgtUUAAAAAAWBUiDxQ2pn-o2uUoTMjjDnXqUv"></div>
+                            <!-- Button action -->
+                            <button type="submit" name="submit" value="submit" class="btn btn-color1">Enviar contato</button>
+                        </form>
                     </div>
-                    <form action="_cdn/php/send.php" method="post">
-                        <!-- NOME -->
-                        <div class="form-group">
-                            <label for="nome" class="d-none">Nome</label>
-                            <input type="text" id="nome" class="form-control" name="nome" placeholder="Insira seu nome" size="35" maxlength="100" required>
-                        </div>
-                        <!-- EMAIL -->
-                        <div class="form-group">
-                            <label for="email" class="d-none">E-mail</label>
-                            <input type="email" id="email" class="form-control" name="email" placeholder="Insira seu melhor e-mail" size="35" maxlength="70" required>
-                        </div>
-                        <!-- TELEFONE -->
-                        <div class="form-group">
-                            <label for="telefone" class="d-none">Telefone</label>
-                            <input type="tel" id="telefone" class="form-control" name="telefone" placeholder="Insira seu telefone com DDD" size="35"
-                                   maxlength="70" required>
-                        </div>
-                        <!-- MENSAGEM -->
-                        <div class="form-group">
-                            <label for="mensagem" class="d-none">Mensagem</label>
-                            <textarea class="form-control" id="mensagem" rows="4" name="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
-                        </div>
-                        <!-- Google recaptcha -->
-                        <div class="g-recaptcha d-flex justify-content-center"
-                             data-sitekey="6LdLgtUUAAAAAAWBUiDxQ2pn-o2uUoTMjjDnXqUv"></div>
-                        <!-- Button action -->
-                        <button type="submit" name="submit" value="submit" class="btn btn-color1">Enviar contato</button>
-                    </form>
                 </div>
             </div>
-            <div class="main_contact_image"></div>
+            <div class="main_contact_image">
+                <span class="main_contact_image_content"></span>
+            </div>
         </div>
     </section>
 
@@ -456,6 +461,7 @@
 <script src="_cdn/js/jquery.min.js"></script>
 <script src="_cdn/js/bootstrap.bundle.min.js"></script>
 <script src="_cdn/js/main.js"></script>
+<script src="_cdn/js/lightbox.min.js"></script>
 </body>
 
 </html>

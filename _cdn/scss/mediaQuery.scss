@@ -54,4 +54,46 @@
         }
     }
 
+    #diagnostico{
+        .main_diagnostics_header{
+            h1{
+                font:{
+                    size: 2rem;
+                }
+                strong{
+                    font:{
+                        size: 2.625rem;
+                    }
+                }
+            }
+        }
+        .main_diagnostics_image{
+            display: none;
+        }
+    }
+
+    #galeria{
+        .main_gallery_header{
+            margin-bottom: 2.5em;
+            h1{
+                font:{
+                    size: 2rem;
+                }
+                strong{
+                    font:{
+                        size: 2.625rem;
+                    }
+                }
+            }
+        }
+        .main_gallery_content{
+            display: flex;
+            flex-wrap: wrap;
+            .main_gallery_img{
+                padding: .375em;
+                flex-basis: 50%;
+            }
+        }
+    }
+
 }
