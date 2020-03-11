@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b756bdb4-218e-4cdb-b45c-e497f02e5ed5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_cdn/scss/_contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_cdn/scss/_diagnostics.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_cdn/scss/_gallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_cdn/scss/_informations.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_cdn/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_cdn/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/_services.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/_services.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/_contact.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/_contact.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/mediaQuery.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/mediaQuery.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/styles.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/.sass-cache/0de0bbf6b64847485e4c071ede1b008aaa760e60/styles.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_cdn/scss/_services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/_services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_cdn/scss/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/_contact.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_cdn/scss/mediaQuery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/mediaQuery.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_cdn/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_cdn/scss/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -89,7 +87,8 @@
       <workItem from="1583368588893" duration="1198000" />
       <workItem from="1583374784273" duration="4113000" />
       <workItem from="1583719390754" duration="8002000" />
-      <workItem from="1583802451981" duration="4668000" />
+      <workItem from="1583802451981" duration="4735000" />
+      <workItem from="1583884721343" duration="1835000" />
     </task>
     <servers />
   </component>
@@ -111,11 +110,11 @@
     </state>
     <state x="1430" y="46" key="SettingsEditor/0.23.1280.777/1280.23.1366.745@1280.23.1366.745" timestamp="1583719654417" />
     <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1583375676965" />
-    <state x="294" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1583802487224">
+    <state x="294" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1583884737127">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="1594" y="237" key="com.intellij.ide.util.TipDialog/0.23.1280.777/1280.23.1366.745@1280.23.1366.745" timestamp="1583719392658" />
-    <state x="294" y="246" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1583802487224" />
+    <state x="294" y="246" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1583884737127" />
     <state x="423" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583290934610">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
@@ -125,6 +124,10 @@
     </state>
     <state x="0" y="23" width="845" height="777" key="find.popup/0.23.1280.777/1280.23.1366.745@0.23.1280.777" timestamp="1583723959827" />
     <state x="0" y="23" width="845" height="777" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1583804995360" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1583885200803">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.23.1280.777@0.23.1280.777" timestamp="1583885200803" />
     <state x="326" y="95" width="670" height="706" key="search.everywhere.popup" timestamp="1583804047859">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

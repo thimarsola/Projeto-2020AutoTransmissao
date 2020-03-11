@@ -1,0 +1,10 @@
+#informacoes{
+    margin: 0;
+    padding: 5em 0;
+    background:{
+        color: #F8F8F8;
+    }
+    .main_information_header{
+        @extend %title;
+    }
+}

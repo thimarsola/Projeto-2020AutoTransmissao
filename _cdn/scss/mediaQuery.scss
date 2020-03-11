@@ -14,6 +14,19 @@
         }
     }
 
+    //CONTACT
+    #contato{
+        background:{
+            color: lighten(#F8F8F8, 2%);
+        }
+        .main_contact_form{
+            display: block;
+            .main_contact_image{
+                display: none;
+            }
+        }
+    }
+
 }
 
 //MOBILE
@@ -41,6 +54,7 @@
         }
     }
 
+    //ABOUT US
     #quem-somos{
         .main_about_container{
             flex-wrap: wrap;
@@ -54,6 +68,7 @@
         }
     }
 
+    //DIAGNOSTICS
     #diagnostico{
         .main_diagnostics_header{
             h1{
@@ -72,6 +87,7 @@
         }
     }
 
+    //GALLERY
     #galeria{
         .main_gallery_header{
             margin-bottom: 2.5em;
@@ -92,6 +108,27 @@
             .main_gallery_img{
                 padding: .375em;
                 flex-basis: 50%;
+            }
+        }
+    }
+
+    //CONTACT
+    #contato{
+        .main_contact_form{
+            .main_contact_form_container{
+                padding: 0 1em;
+                .main_contact_header{
+                    h1{
+                        font:{
+                            size: 2rem;
+                        }
+                        strong{
+                            font:{
+                                size: 2.625rem;
+                            }
+                        }
+                    }
+                }
             }
         }
     }

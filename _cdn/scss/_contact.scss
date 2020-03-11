@@ -21,6 +21,58 @@
                         weight: $font-light;
                     }
                 }
+                .form{
+                    margin: 2em 0 0 0;
+                    padding: 2em;
+                    background:{
+                        color: $color3;
+                    }
+                    box-shadow: 0 0 10px rgba(#333, .3);
+                    &:hover{
+                        transform: scale(1.05);
+                        box-shadow: 0 0 10px rgba(#333, .5);
+                        -webkit-transition: ease-in-out .5s;
+                        -moz-transition: ease-in-out .5s;
+                        transition: ease-in-out .5s;
+                    }
+                    .main_contact_content_form_header{
+                        margin: 0 0 1.375em 0;
+                        padding: 0;
+                        h2{
+                            display: flex;
+                            align-items: center;
+                            margin: 0;
+                            padding: 0;
+                            font:{
+                                style: normal;
+                                size: 1.375em;
+                                weight: $font-bold;
+                            }
+                            img{
+                                margin: 0 1em 0 0;
+                            }
+                        }
+                    }
+                    form{
+                        input, textarea{
+                            font:{
+                                style: normal;
+                                size: .875em;
+                                weight: $font-light;
+                            }
+                        }
+                        .button_form{
+                            margin: 1em 0 0 0;
+                            padding: 0;
+                            display: flex;
+                            justify-content: center;
+                            .btn{
+                                padding: .375em 2em;
+                                color: $color3;
+                            }
+                        }
+                    }
+                }
             }
         }
         .main_contact_image{

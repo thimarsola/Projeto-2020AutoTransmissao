@@ -68,6 +68,10 @@
     <link rel="stylesheet" href="_cdn/css/styles.css">
 
     <title>2020 Auto Transmissões - Consertos e Retífica de Câmbios</title>
+
+    <!-- Google reCaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <meta name="google-site-verification" content="GI4ihGXnPyPKkwVbjSUJSIcYdMQCLSU68PFUyAq-niA" />
 </head>
 
 <body id="home">
@@ -151,7 +155,7 @@
         <div class="container">
             <!--HEADER-->
             <header class="main_services_header">
-                <h1>Conheça os<br><strong>Nossos Serviços</strong></h1>
+                <h1>Conheça os <br><strong>Nossos Serviços</strong></h1>
             </header>
             <!--CONTENT-->
             <div class="main_services_content">
@@ -277,19 +281,19 @@
         <div class="main_contact_form">
             <div class="main_contact_form_container">
                 <!--HEADER-->
-                <div class="main_contact_header">
+                <header class="main_contact_header">
                     <h1>Entre em<br><strong>Contato</strong></h1>
-                </div>
+                </header>
                 <!--CONTENT-->
                 <div class="main_contact_content">
                     <p>Entre em contato conosco e agende um orçamento gratuito!</p>
                     <div class="form">
-                        <div class="main_contact_content_form_header">
+                        <header class="main_contact_content_form_header">
                             <h2>
                                 <img src="_cdn/img/vt-contact.svg" alt="2020 Auto Transmissões">
                                 Envie um e-mail
                             </h2>
-                        </div>
+                        </header>
                         <form action="_cdn/php/send.php" method="post">
                             <!-- NOME -->
                             <div class="form-group">
@@ -316,7 +320,9 @@
                             <div class="g-recaptcha d-flex justify-content-center"
                                  data-sitekey="6LdLgtUUAAAAAAWBUiDxQ2pn-o2uUoTMjjDnXqUv"></div>
                             <!-- Button action -->
-                            <button type="submit" name="submit" value="submit" class="btn btn-color1">Enviar contato</button>
+                            <div class="button_form">
+                                <button type="submit" name="submit" value="submit" class="btn btn-color1">Enviar contato</button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -331,31 +337,14 @@
     <section id="informacoes" class="main_information">
         <div class="container">
             <!--HEADER-->
-            <div class="main_information_header">
+            <header class="main_information_header">
                 <h1>Fale <br><strong>Conosco</strong></h1>
-            </div>
+            </header>
             <!--CONTENT-->
             <div class="main_information_content">
                 <div class="row">
-                    <!--E-MAIL-->
-                    <div class="col-sm-3">
-                        <div class="main_information_content_card">
-                            <!--HEADER-->
-                            <div class="main_information_content_card_header">
-                                <h2>
-                                    <img src="_cdn/img/vt-email.svg" alt="2020 Auto Transmissões">
-                                    Envie um e-mail
-                                </h2>
-                            </div>
-                            <!--CONTENT-->
-                            <div class="main_information_content_card_content">
-                                <p>Nossos atendentes irão entrar em contato com você assim que possível.</p>
-                                <a href="mailto:atendimento@2020autotransmissoes.com.br">atendimento@2020autotransmissoes.com.br</a>
-                            </div>
-                        </div>
-                    </div>
                     <!--PHONE-->
-                    <div class="col-sm-3">
+                    <div class="col-sm-4 mb-4">
                         <div class="main_information_content_card">
                             <!--HEADER-->
                             <div class="main_information_content_card_header">
@@ -372,7 +361,7 @@
                         </div>
                     </div>
                     <!--WHATSAPP-->
-                    <div class="col-sm-3">
+                    <div class="col-sm-4 mb-4">
                         <div class="main_information_content_card">
                             <!--HEADER-->
                             <div class="main_information_content_card_header">
@@ -389,7 +378,7 @@
                         </div>
                     </div>
                     <!--ADDRESS-->
-                    <div class="col-sm-3">
+                    <div class="col-sm-4 mb-4">
                         <div class="main_information_content_card">
                             <!--HEADER-->
                             <div class="main_information_content_card_header">
@@ -407,12 +396,12 @@
                     </div>
                 </div>
             </div>
-            <!--MAP-->
-            <div class="main_information_map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.023888973428!2d-46.612662385283656!3d-23.603476184662014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b81ae12ae97%3A0x5f2b3870d664f7a6!2s2020%20Auto%20Transmiss%C3%B5es%20-%20Oficina%20mec%C3%A2nica%20especializada%20em%20c%C3%A2mbio%20autom%C3%A1tico%20e%20c%C3%A2mbio%20manual!5e0!3m2!1spt-BR!2sbr!4v1583369184992!5m2!1spt-BR!2sbr" allowfullscreen=""></iframe>
-            </div>
         </div>
     </section>
+    <!--MAP-->
+    <div class="main_information_map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.023888973428!2d-46.612662385283656!3d-23.603476184662014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b81ae12ae97%3A0x5f2b3870d664f7a6!2s2020%20Auto%20Transmiss%C3%B5es%20-%20Oficina%20mec%C3%A2nica%20especializada%20em%20c%C3%A2mbio%20autom%C3%A1tico%20e%20c%C3%A2mbio%20manual!5e0!3m2!1spt-BR!2sbr!4v1583369184992!5m2!1spt-BR!2sbr" allowfullscreen=""></iframe>
+    </div>
 </main>
 
 <!-- Footer -->
